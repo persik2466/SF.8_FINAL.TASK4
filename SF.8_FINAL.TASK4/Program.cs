@@ -21,7 +21,6 @@ namespace FinalTask
             Group = group;
             DateOfBirth = dateOfBirth;
         }
-
     }
     class Program
     {
