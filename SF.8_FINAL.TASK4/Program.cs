@@ -27,7 +27,7 @@ namespace FinalTask
         static void Main(string[] args)
         {
             Console.WriteLine("Укажите полный путь к бинарному файлу базы студентов");
-            string FileNameS = Console.ReadLine();  //@"D:\Мама\Учёба С#\8.6.4 Итог Бинарный файл студент\Students.dat";  //"Settings.cfg";
+            string FileNameS = Console.ReadLine();  
             string DirName = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + @"\Students";
             CreateDir(DirName);
             ReadBinStud(FileNameS, DirName);
